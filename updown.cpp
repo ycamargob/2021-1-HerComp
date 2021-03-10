@@ -33,7 +33,7 @@ REAL sumup(int N)
 REAL sumdown(int N)
 {
     REAL suma=0;
-    for (int n = N; n >= 1; ++n){
+    for (int n = N; n >= 1; --n){
         suma +=1.0/n;
     }
     return suma;
